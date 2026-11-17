@@ -1,6 +1,6 @@
 # Amigos Share Watcher
 
-Cliente Python de terminal para a realizaçao monitorada de buscas na comunidade Amigos Share Club - Basicamente baixar torrents e enviar notificações disso.
+Cliente Python de terminal para monitorar buscas no Amigos Share Club, baixar torrents e enviar notificações.
 
 ## Requisitos
 
@@ -20,7 +20,7 @@ cp watchlist.example.json watchlist.json
 python main.py
 ```
 
-Edite `config.json` ou utilize o menu do script para setar os dados. Não compartilhe `config.json`: ele contém credenciais. O programa tenta restringir suas permissões para o proprietário no sistema POSIX.
+Edite `config.json` ou utilize o menu. Não compartilhe `config.json`: ele contém credenciais. O programa tenta restringir suas permissões para o proprietário no sistema POSIX.
 
 ## Gmail / SMTP
 
@@ -183,6 +183,6 @@ Os logs não registram intencionalmente senhas nem tokens. Ainda assim, mantenha
 
 ## Limitações e observações
 
-- O programa depende da estrutura atual do site e de suas respostas; mudanças no site podem exigir adaptação.
+- O programa depende da estrutura atual do site e de suas respostas Inertia; mudanças no site podem exigir adaptação.
 - O monitoramento em `--daemon` roda em primeiro plano e deve ser supervisionado pelo gerenciador de serviços.
 - Teste inicialmente com uma watchlist pequena e intervalos respeitosos.

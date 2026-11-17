@@ -1,0 +1,45 @@
+{
+  "site": {
+    "base_url": "https://amigos-share.club",
+    "username": "",
+    "password": "",
+    "remember_me": true,
+    "timeout_seconds": 30,
+    "session_check_minutes": 15,
+    "user_agent": "AmigosShareWatcher/1.0 (+personal use; respectful polling)"
+  },
+  "downloads": {
+    "directory": "~/Downloads/torrents",
+    "create_directory": true,
+    "overwrite": false
+  },
+  "scheduler": {
+    "enabled_on_start": false,
+    "minimum_interval_seconds": 300,
+    "request_delay_seconds": 3,
+    "jitter_seconds": 2
+  },
+  "notifications": {
+    "telegram": {
+      "enabled": false,
+      "bot_token": "",
+      "chat_id": ""
+    },
+    "email": {
+      "enabled": false,
+      "smtp_host": "smtp.gmail.com",
+      "smtp_port": 587,
+      "username": "",
+      "password": "",
+      "from": "",
+      "to": "",
+      "starttls": true,
+      "provider": "gmail",
+      "security": "starttls",
+      "timeout_seconds": 30
+    }
+  },
+  "ui": {
+    "clear_screen": true
+  }
+}
